@@ -7,6 +7,30 @@
 using namespace std; //inafanya iwe rahisi kutumia cou na cin bila std::
 int main() //sehemu kuu pogramu inapoanzwa kutengenezwa.
 { 	
+		
+	string name1="hassan";
+	string name2="alli";
+	string name3="kindamba";
+	
+	int x;
+	int y;
+	int z;
+	
+	cout<<"WELCOME"<<endl;
+	cout<<name1<<" "<<name2<<" "<<name3<<endl;
+	
+	cout<<"enter value of x"<<endl;
+	cin>>x;
+	
+	cout<<"enter value of y"<<endl;
+	cin>>y;
+	
+	cout<<"after calculation"<<endl;
+	
+	z=x+y;
+	cout<<"the value of z is: "<<z<<endl;
+	
+
 	srand(time(0)); //inazalisha namba tofauti random
 	int level = 1; //kiwango cha kuanzia
 	int score = 0; //alama za kuanzia
